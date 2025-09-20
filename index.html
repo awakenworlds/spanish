@@ -1,67 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>
-Spanish News Articles and Translations
-</title>
-<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/awakenworlds/spanish/refs/heads/main/favicon.ico">
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Flashcards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<br>
-<h1>
-Spanish News Articles and Translations
-</h1>
-<ul>
-<h2>
-News in Spanish
-</h2>
-<li>
-<a href="https://www.youtube.com/watch?v=yXxYiylCUg8" target="_blank">
-*Aug 29, 2025: Quito Metro, Lack of maintenance
-</li> 
-<li>
-<a href="https://app.notta.ai/share/b1df02d5-9558-42c7-9d3a-0c4332fed531?lang=en-US&t=97084a6e7d88ead02a293d0122b3ec4a" target="_blank">
-Aug 29, 2025: Se esperan tormentas de Texas a Florida durante fin de semana | Noticias Telemundo
-</a>
-</li> 
-<li>
-<a href="https://app.notta.ai/share/479f058e-5813-4904-a480-5c0483580d6a?lang=en-US&t=e194c5a3ed4bb66476b1f22661c04ae2" target="_blank">
-Aug 9, 2025: Noticiero 24 Horas Emisión Estelar del viernes 8 de agosto del 2025
-</a>
-</li> 
-<h4>
-* Denotes audio in Spanish and English
-</h4>
-</ul>
-<ul>
-<h2>
-Additional Ecuador Resources
-</h2>
-<li>
-<a href="https://www.youtube.com/watch?v=POE_fHCCzxU" target="_blank">
-Ecuadorian National Anthem - "Salve, Oh Patria" (ES/EN)
-</a>
-</li>
-</ul>
-<ul>
-<h2>
-Other Links
-</h2>
-<li>
-<a href=" " target="_blank">
-Video Learning for Ecuador Students (coming soon)
-</a>
-</li>
-<li>
-<a href="https://awakenworlds.github.io/bbcnepal" target="_blank">
-BBC Nepal News and English Translation Learning
-</a>
-</li>
-</ul>
-<br>
-<br>
-<footer>
-<p>This website is intended for educational purposes only. The content may not be owned by this website's creator. The information provided is for general knowledge and informational purposes only.</p>
-</footer>
+    <div class="card-container">
+        <h1>Spanish Flashcards</h1>
+        <div id="card">
+            <div id="question"></div>
+            <div id="answer" class="hidden"></div>
+            <div id="feedback" class="feedback"></div>
+        </div>
+
+        <div class="controls">
+            <div class="input-group">
+                <input type="text" id="spanish-answer-input" placeholder="Your Answer">
+                <button id="submit-btn">Submit</button>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <button id="prev-card-btn">Previous</button>
+            <button id="show-answer-btn">Show Answer</button>
+            <button id="reset-btn" class="reset-button">Reset Card</button>
+            <button id="next-card-btn">Next</button>
+            <button id="switch-language-btn">Switch Language</button>
+        </div>
+
+        <div class="category-select-container">
+            <label for="category-select">Choose a category:</label>
+            <select id="category-select" class="category-select">
+                <option value="all">All</option>
+                <option value="verb">Verbs</option>
+                <option value="noun">Nouns</option>
+                <option value="adjective">Adjectives</option>
+                <option value="phrase">Common Phrases</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
