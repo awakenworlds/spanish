@@ -2,6 +2,7 @@ let quizData = [];
 let currentCardIndex = 0;
 let filteredQuizData = [];
 let isEnglishToSpanish = true;
+let lastAnswerCorrect = false;
 
 const questionEl = document.getElementById('question');
 const answerEl = document.getElementById('answer');
@@ -15,12 +16,15 @@ const nextBtn = document.getElementById('next-card-btn');
 const switchLanguageBtn = document.getElementById('switch-language-btn');
 const categorySelect = document.getElementById('category-select');
 
-// Load data from JSON file
+// Disable autocomplete dropdown
+spanishInput.setAttribute("autocomplete", "off");
+
+// Load data from JSON
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
     quizData = data;
-    applyFilterAndLoad(); // initialize deck
+    applyFilterAndLoad();
   })
   .catch(error => {
     console.error("Error loading flashcards:", error);
@@ -34,6 +38,26 @@ function shuffle(array) {
   }
 }
 
+function normalizeText(text) {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\.$/, "")
+    .trim()
+    .toLowerCase();
+}
+
+function stripBrackets(text) {
+  return text.replace(/\s*\(.*?\)\s*/g, "").trim();
+}
+
+function getAnswerVariants(answer) {
+  // Split by "/" and return normalized variants
+  return answer
+    .split("/")
+    .map(a => normalizeText(stripBrackets(a)));
+}
+
 function displayCard() {
   if (!filteredQuizData.length) {
     questionEl.textContent = "No flashcards available.";
@@ -43,33 +67,64 @@ function displayCard() {
   }
 
   const card = filteredQuizData[currentCardIndex];
-
   if (isEnglishToSpanish) {
     questionEl.textContent = card.question;
     answerEl.textContent = card.answer;
+    spanishInput.placeholder = "Spanish Answer";
   } else {
     questionEl.textContent = card.answer;
     answerEl.textContent = card.question;
+    spanishInput.placeholder = "English Answer";
   }
 
   answerEl.classList.add('hidden');
   feedbackEl.textContent = '';
   spanishInput.value = '';
+  lastAnswerCorrect = false;
 }
 
-function checkSpanishAnswer() {
+function checkAnswer() {
   if (!filteredQuizData.length) return;
 
   const card = filteredQuizData[currentCardIndex];
-  const userAnswer = spanishInput.value.trim().toLowerCase();
-  const correctAnswer = (isEnglishToSpanish ? card.answer : card.question).toLowerCase();
+  const userAnswer = normalizeText(spanishInput.value);
 
-  if (userAnswer === correctAnswer) {
+  let correctAnswer = isEnglishToSpanish ? card.answer : card.question;
+  let correctVariants = getAnswerVariants(correctAnswer);
+
+  // Also strip brackets and check variants without brackets
+  let strippedCorrect = stripBrackets(correctAnswer);
+  correctVariants.push(...getAnswerVariants(strippedCorrect));
+
+  let reverseAnswer = isEnglishToSpanish ? card.question : card.answer;
+  let reverseVariants = getAnswerVariants(reverseAnswer);
+  let strippedReverse = stripBrackets(reverseAnswer);
+  reverseVariants.push(...getAnswerVariants(strippedReverse));
+
+  let allVariants = [...new Set([...correctVariants, ...reverseVariants])];
+
+  if (allVariants.includes(userAnswer)) {
     feedbackEl.textContent = "✅ Correct!";
     feedbackEl.style.color = "green";
+    lastAnswerCorrect = true;
+    answerEl.classList.remove('hidden');
   } else {
-    feedbackEl.textContent = `❌ Incorrect. Correct answer: ${correctAnswer}`;
+    feedbackEl.textContent = "❌ Incorrect. Try again!";
     feedbackEl.style.color = "red";
+    lastAnswerCorrect = false;
+    answerEl.classList.add('hidden');
+  }
+}
+
+function handleKeyPress(e) {
+  if (e.key === 'Enter') {
+    if (lastAnswerCorrect) {
+      nextCard();
+    } else {
+      checkAnswer();
+    }
+  } else if (e.key === 'ArrowUp') {
+    showAnswer();
   }
 }
 
@@ -82,6 +137,7 @@ function resetCard() {
   spanishInput.value = '';
   feedbackEl.textContent = '';
   answerEl.classList.add('hidden');
+  lastAnswerCorrect = false;
 }
 
 function nextCard() {
@@ -111,10 +167,8 @@ function applyFilterAndLoad() {
 }
 
 // Event listeners
-submitBtn.addEventListener('click', checkSpanishAnswer);
-spanishInput.addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') checkSpanishAnswer();
-});
+submitBtn.addEventListener('click', checkAnswer);
+spanishInput.addEventListener('keydown', handleKeyPress);
 prevBtn.addEventListener('click', prevCard);
 nextBtn.addEventListener('click', nextCard);
 showAnswerBtn.addEventListener('click', showAnswer);
