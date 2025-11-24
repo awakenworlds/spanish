@@ -413,7 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function initializeQuiz() {
         // Fetch data.json
-        fetch('/data.json')
+        fetch('./data.json')
             .then(res => res.json())
             .then(data => {
                 // Map the data to ensure required keys are present
@@ -469,3 +469,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
