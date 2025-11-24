@@ -3,61 +3,61 @@
         "question": "to be (essence/permanent)",
         "answer": "ser",
         "sort": "verb",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "to be (location/temporary)",
         "answer": "estar",
         "sort": "verb",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "to have",
         "answer": "tener",
         "sort": "verb",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "to do, to make",
         "answer": "hacer",
         "sort": "verb",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "to be able to, can",
         "answer": "poder",
         "sort": "verb",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "to say, to tell",
         "answer": "decir",
         "sort": "verb",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "to go",
         "answer": "ir",
         "sort": "verb",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "to see",
         "answer": "ver",
         "sort": "verb",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "to give",
         "answer": "dar",
         "sort": "verb",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "to know (facts/skills)",
         "answer": "saber",
         "sort": "verb",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "to want, to love",
@@ -651,109 +651,109 @@
         "question": "man",
         "answer": "el hombre",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "woman",
         "answer": "la mujer",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "day",
         "answer": "el día",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "life",
         "answer": "la vida",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "time",
         "answer": "el tiempo",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "way, road",
         "answer": "el camino",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "world",
         "answer": "el mundo",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "hand",
         "answer": "la mano",
         "sort": "noun",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "place",
         "answer": "el lugar",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "thing",
         "answer": "la cosa",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "person",
         "answer": "la persona",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "moment",
         "answer": "el momento",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "year",
         "answer": "el año",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "form, shape",
         "answer": "la forma",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "hour",
         "answer": "la hora",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "government",
         "answer": "el gobierno",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "war",
         "answer": "la guerra",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "mother",
         "answer": "la madre",
         "sort": "noun",
-        "sort2": "top 20"
+        "sort2": null
     },
     {
         "question": "problem",
@@ -1233,61 +1233,61 @@
         "question": "good",
         "answer": "bueno / a",
         "sort": "adjective",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "bad",
         "answer": "malo / a",
         "sort": "adjective",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "big, large, great",
         "answer": "grande",
         "sort": "adjective",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "small, little",
         "answer": "pequeño / a",
         "sort": "adjective",
-        "sort2": "top 5"
+        "sort2": null
     },
     {
         "question": "new",
         "answer": "nuevo / a",
         "sort": "adjective",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "old",
         "answer": "viejo / a",
         "sort": "adjective",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "same, equal",
         "answer": "mismo / a",
         "sort": "adjective",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "other, another",
         "answer": "otro / a",
         "sort": "adjective",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "much, many",
         "answer": "mucho / a",
         "sort": "adjective",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "few, little",
         "answer": "poco / a",
         "sort": "adjective",
-        "sort2": "top 10"
+        "sort2": null
     },
     {
         "question": "important",
