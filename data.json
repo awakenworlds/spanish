@@ -1,267 +1,2402 @@
 [
-{"question": "to eat", "answer": "comer", "sort": "verb"},
-{"question": "to live", "answer": "vivir", "sort": "verb"},
-{"question": "to speak", "answer": "hablar", "sort": "verb"},
-{"question": "house", "answer": "casa", "sort": "noun"},
-{"question": "book", "answer": "libro", "sort": "noun"},
-{"question": "big", "answer": "grande", "sort": "adjective"},
-{"question": "Hello, how are you?", "answer": "Hola, ¿cómo estás?", "sort": "phrase"},
-{"question": "to work", "answer": "trabajar", "sort": "verb"},
-{"question": "to want", "answer": "querer", "sort": "verb"},
-{"question": "to feel", "answer": "sentir", "sort": "verb"},
-{"question": "dog", "answer": "perro", "sort": "noun"},
-{"question": "cat", "answer": "gato", "sort": "noun"},
-{"question": "water", "answer": "agua", "sort": "noun"},
-{"question": "small", "answer": "pequeño/a", "sort": "adjective"},
-{"question": "happy", "answer": "feliz", "sort": "adjective"},
-{"question": "fast", "answer": "rápido/a", "sort": "adjective"},
-{"question": "Good morning.", "answer": "Buenos días.", "sort": "phrase"},
-{"question": "Thank you very much.", "answer": "Muchas gracias.", "sort": "phrase"},
-{"question": "Excuse me (to get attention).", "answer": "Disculpe.", "sort": "phrase"},
-{"question": "to do/to make", "answer": "hacer", "sort": "verb"},
-{"question": "to go", "answer": "ir", "sort": "verb"},
-{"question": "to say/to tell", "answer": "decir", "sort": "verb"},
-{"question": "table", "answer": "mesa", "sort": "noun"},
-{"question": "chair", "answer": "silla", "sort": "noun"},
-{"question": "money", "answer": "dinero", "sort": "noun"},
-{"question": "red", "answer": "rojo/a", "sort": "adjective"},
-{"question": "blue", "answer": "azul", "sort": "adjective"},
-{"question": "new", "answer": "nuevo/a", "sort": "adjective"},
-{"question": "Where is the bathroom?", "answer": "¿Dónde está el baño?", "sort": "phrase"},
-{"question": "I don't understand.", "answer": "No entiendo.", "sort": "phrase"},
-{"question": "to come", "answer": "venir", "sort": "verb"},
-{"question": "to give", "answer": "dar", "sort": "verb"},
-{"question": "to find", "answer": "encontrar", "sort": "verb"},
-{"question": "time", "answer": "tiempo", "sort": "noun"},
-{"question": "person", "answer": "persona", "sort": "noun"},
-{"question": "food", "answer": "comida", "sort": "noun"},
-{"question": "difficult", "answer": "difícil", "sort": "adjective"},
-{"question": "hot", "answer": "caliente", "sort": "adjective"},
-{"question": "cold", "answer": "frío/a", "sort": "adjective"},
-{"question": "What is your name?", "answer": "¿Cómo te llamas?", "sort": "phrase"},
-{"question": "Pleased to meet you.", "answer": "Mucho gusto.", "sort": "phrase"},
-{"question": "to know (a person/place)", "answer": "conocer", "sort": "verb"},
-{"question": "to put/to place", "answer": "poner", "sort": "verb"},
-{"question": "to take/to grab", "answer": "tomar", "sort": "verb"},
-{"question": "door", "answer": "puerta", "sort": "noun"},
-{"question": "window", "answer": "ventana", "sort": "noun"},
-{"question": "country", "answer": "país", "sort": "noun"},
-{"question": "important", "answer": "importante", "sort": "adjective"},
-{"question": "bad", "answer": "malo/a", "sort": "adjective"},
-{"question": "See you later.", "answer": "Hasta luego.", "sort": "phrase"},
-{"question": "to walk", "answer": "caminar", "sort": "verb"},
-{"question": "to think", "answer": "pensar", "sort": "verb"},
-{"question": "to need", "answer": "necesitar", "sort": "verb"},
-{"question": "sun", "answer": "sol", "sort": "noun"},
-{"question": "moon", "answer": "luna", "sort": "noun"},
-{"question": "morning", "answer": "mañana", "sort": "noun"},
-{"question": "tall/high", "answer": "alto/a", "sort": "adjective"},
-{"question": "short/low", "answer": "bajo/a", "sort": "adjective"},
-{"question": "long", "answer": "largo/a", "sort": "adjective"},
-{"question": "I'm sorry.", "answer": "Lo siento.", "sort": "phrase"},
-{"question": "Can you help me?", "answer": "¿Me puedes ayudar?", "sort": "phrase"},
-{"question": "to understand", "answer": "entender", "sort": "verb"},
-{"question": "to receive", "answer": "recibir", "sort": "verb"},
-{"question": "to wait/to hope", "answer": "esperar", "sort": "verb"},
-{"question": "street", "answer": "calle", "sort": "noun"},
-{"question": "hospital", "answer": "hospital", "sort": "noun"},
-{"question": "family", "answer": "familia", "sort": "noun"},
-{"question": "pretty/beautiful", "answer": "bonito/a", "sort": "adjective"},
-{"question": "ugly", "answer": "feo/a", "sort": "adjective"},
-{"question": "clean", "answer": "limpio/a", "sort": "adjective"},
-{"question": "What time is it?", "answer": "¿Qué hora es?", "sort": "phrase"},
-{"question": "I'm hungry.", "answer": "Tengo hambre.", "sort": "phrase"},
-{"question": "to play", "answer": "jugar", "sort": "verb"},
-{"question": "to learn", "answer": "aprender", "sort": "verb"},
-{"question": "to forget", "answer": "olvidar", "sort": "verb"},
-{"question": "tree", "answer": "árbol", "sort": "noun"},
-{"question": "flower", "answer": "flor", "sort": "noun"},
-{"question": "mountain", "answer": "montaña", "sort": "noun"},
-{"question": "light", "answer": "claro/a", "sort": "adjective"},
-{"question": "dark", "answer": "oscuro/a", "sort": "adjective"},
-{"question": "strong", "answer": "fuerte", "sort": "adjective"},
-{"question": "I need help.", "answer": "Necesito ayuda.", "sort": "phrase"},
-{"question": "I am fine.", "answer": "Estoy bien.", "sort": "phrase"},
-{"question": "to stop", "answer": "parar", "sort": "verb"},
-{"question": "to begin", "answer": "empezar", "sort": "verb"},
-{"question": "to finish/end", "answer": "terminar", "sort": "verb"},
-{"question": "school", "answer": "escuela", "sort": "noun"},
-{"question": "office", "answer": "oficina", "sort": "noun"},
-{"question": "paper", "answer": "papel", "sort": "noun"},
-{"question": "free", "answer": "libre", "sort": "adjective"},
-{"question": "full", "answer": "lleno/a", "sort": "adjective"},
-{"question": "empty", "answer": "vacío/a", "sort": "adjective"},
-{"question": "That's great!", "answer": "¡Qué bien!", "sort": "phrase"},
-{"question": "Come here.", "answer": "Ven aquí.", "sort": "phrase"},
-{"question": "to read", "answer": "leer", "sort": "verb"},
-{"question": "to write", "answer": "escribir", "sort": "verb"},
-{"question": "to help", "answer": "ayudar", "sort": "verb"},
-{"question": "apple", "answer": "manzana", "sort": "noun"},
-{"question": "milk", "answer": "leche", "sort": "noun"},
-{"question": "coffee", "answer": "café", "sort": "noun"},
-{"question": "to sell", "answer": "vender", "sort": "verb"},
-{"question": "to lose", "answer": "perder", "sort": "verb"},
-{"question": "to try", "answer": "intentar", "sort": "verb"},
-{"question": "shoe", "answer": "zapato", "sort": "noun"},
-{"question": "shirt", "answer": "camisa", "sort": "noun"},
-{"question": "coat", "answer": "abrigo", "sort": "noun"},
-{"question": "young", "answer": "joven", "sort": "adjective"},
-{"question": "old", "answer": "viejo/a", "sort": "adjective"},
-{"question": "easy", "answer": "fácil", "sort": "adjective"},
-{"question": "How much does it cost?", "answer": "¿Cuánto cuesta?", "sort": "phrase"},
-{"question": "It is late.", "answer": "Es tarde.", "sort": "phrase"},
-{"question": "to look for", "answer": "buscar", "sort": "verb"},
-{"question": "to hear", "answer": "oír", "sort": "verb"},
-{"question": "to fall", "answer": "caer", "sort": "verb"},
-{"question": "air", "answer": "aire", "sort": "noun"},
-{"question": "fire", "answer": "fuego", "sort": "noun"},
-{"question": "land/earth", "answer": "tierra", "sort": "noun"},
-{"question": "delicious", "answer": "delicioso/a", "sort": "adjective"},
-{"question": "terrible", "answer": "terrible", "sort": "adjective"},
-{"question": "brave", "answer": "valiente", "sort": "adjective"},
-{"question": "I love you.", "answer": "Te quiero.", "sort": "phrase"},
-{"question": "Good night.", "answer": "Buenas noches.", "sort": "phrase"},
-{"question": "to know (a fact)", "answer": "saber", "sort": "verb"},
-{"question": "to feel bad", "answer": "sentirse mal", "sort": "verb"},
-{"question": "to return", "answer": "volver", "sort": "verb"},
-{"question": "airplane", "answer": "avión", "sort": "noun"},
-{"question": "boat", "answer": "barco", "sort": "noun"},
-{"question": "train", "answer": "tren", "sort": "noun"},
-{"question": "green", "answer": "verde", "sort": "adjective"},
-{"question": "yellow", "answer": "amarillo/a", "sort": "adjective"},
-{"question": "purple", "answer": "morado/a", "sort": "adjective"},
-{"question": "Of course.", "answer": "Por supuesto.", "sort": "phrase"},
-{"question": "It's all good.", "answer": "Está todo bien.", "sort": "phrase"},
-{"question": "to live (long term)", "answer": "residir", "sort": "verb"},
-{"question": "to permit", "answer": "permitir", "sort": "verb"},
-{"question": "to travel", "answer": "viajar", "sort": "verb"},
-{"question": "bridge", "answer": "puente", "sort": "noun"},
-{"question": "river", "answer": "río", "sort": "noun"},
-{"question": "ocean", "answer": "océano", "sort": "noun"},
-{"question": "wild", "answer": "salvaje", "sort": "adjective"},
-{"question": "domestic", "answer": "doméstico/a", "sort": "adjective"},
-{"question": "simple", "answer": "sencillo/a", "sort": "adjective"},
-{"question": "I need more time.", "answer": "Necesito más tiempo.", "sort": "phrase"},
-{"question": "We are ready.", "answer": "Estamos listos.", "sort": "phrase"},
-{"question": "to share", "answer": "compartir", "sort": "verb"},
-{"question": "to promise", "answer": "prometer", "sort": "verb"},
-{"question": "to dream", "answer": "soñar", "sort": "verb"},
-{"question": "cloud", "answer": "nube", "sort": "noun"},
-{"question": "star", "answer": "estrella", "sort": "noun"},
-{"question": "planet", "answer": "planeta", "sort": "noun"},
-{"question": "calm", "answer": "tranquilo/a", "sort": "adjective"},
-{"question": "nervous", "answer": "nervioso/a", "sort": "adjective"},
-{"question": "professional", "answer": "profesional", "sort": "adjective"},
-{"question": "Do you accept credit cards?", "answer": "¿Acepta tarjetas?", "sort": "phrase"},
-{"question": "I would like a beer.", "answer": "Quiero una cerveza.", "sort": "phrase"},
-{"question": "to move", "answer": "mover", "sort": "verb"},
-{"question": "to choose", "answer": "elegir", "sort": "verb"},
-{"question": "to introduce", "answer": "presentar", "sort": "verb"},
-{"question": "key", "answer": "llave", "sort": "noun"},
-{"question": "lock", "answer": "cerradura", "sort": "noun"},
-{"question": "tool", "answer": "herramienta", "sort": "noun"},
-{"question": "metal", "answer": "de metal", "sort": "adjective"},
-{"question": "plastic", "answer": "de plástico", "sort": "adjective"},
-{"question": "wooden", "answer": "de madera", "sort": "adjective"},
-{"question": "I am traveling.", "answer": "Estoy de viaje.", "sort": "phrase"},
-{"question": "That's not fair.", "answer": "No es justo.", "sort": "phrase"},
-{"question": "to pay", "answer": "pagar", "sort": "verb"},
-{"question": "to cost", "answer": "costar", "sort": "verb"},
-{"question": "to win", "answer": "ganar", "sort": "verb"},
-{"question": "wallet", "answer": "cartera", "sort": "noun"},
-{"question": "ticket", "answer": "boleto", "sort": "noun"},
-{"question": "bill/check", "answer": "cuenta", "sort": "noun"},
-{"question": "rich", "answer": "rico/a", "sort": "adjective"},
-{"question": "poor", "answer": "pobre", "sort": "adjective"},
-{"question": "expensive", "answer": "caro/a", "sort": "adjective"},
-{"question": "The bill, please.", "answer": "La cuenta, por favor.", "sort": "phrase"},
-{"question": "How much is it?", "answer": "¿Cuánto es?", "sort": "phrase"},
-{"question": "to run", "answer": "correr", "sort": "verb"},
-{"question": "to jump", "answer": "saltar", "sort": "verb"},
-{"question": "to swim", "answer": "nadar", "sort": "verb"},
-{"question": "gym", "answer": "gimnasio", "sort": "noun"},
-{"question": "sport", "answer": "deporte", "sort": "noun"},
-{"question": "exercise", "answer": "ejercicio", "sort": "noun"},
-{"question": "healthy", "answer": "saludable", "sort": "adjective"},
-{"question": "tired", "answer": "cansado/a", "sort": "adjective"},
-{"question": "athletic", "answer": "atlético/a", "sort": "adjective"},
-{"question": "I need to exercise.", "answer": "Necesito hacer ejercicio.", "sort": "phrase"},
-{"question": "Let's go!", "answer": "¡Vamos!", "sort": "phrase"},
-{"question": "to imagine", "answer": "imaginar", "sort": "verb"},
-{"question": "to recognize", "answer": "reconocer", "sort": "verb"},
-{"question": "to forget", "answer": "olvidar", "sort": "verb"},
-{"question": "memory", "answer": "memoria", "sort": "noun"},
-{"question": "thought", "answer": "pensamiento", "sort": "noun"},
-{"question": "idea", "answer": "idea", "sort": "noun"},
-{"question": "creative", "answer": "creativo/a", "sort": "adjective"},
-{"question": "logical", "answer": "lógico/a", "sort": "adjective"},
-{"question": "confused", "answer": "confundido/a", "sort": "adjective"},
-{"question": "I forgot it.", "answer": "Se me olvidó.", "sort": "phrase"},
-{"question": "What do you think?", "answer": "¿Qué piensas?", "sort": "phrase"},
-{"question": "to believe", "answer": "creer", "sort": "verb"},
-{"question": "to doubt", "answer": "dudar", "sort": "verb"},
-{"question": "to lie", "answer": "mentir", "sort": "verb"},
-{"question": "truth", "answer": "verdad", "sort": "noun"},
-{"question": "lie", "answer": "mentira", "sort": "noun"},
-{"question": "secret", "answer": "secreto", "sort": "noun"},
-{"question": "honest", "answer": "honesto/a", "sort": "adjective"},
-{"question": "false", "answer": "falso/a", "sort": "adjective"},
-{"question": "possible", "answer": "posible", "sort": "adjective"},
-{"question": "Tell me the truth.", "answer": "Dime la verdad.", "sort": "phrase"},
-{"question": "I don't believe you.", "answer": "No te creo.", "sort": "phrase"},
-{"question": "to close", "answer": "cerrar", "sort": "verb"},
-{"question": "to open", "answer": "abrir", "sort": "verb"},
-{"question": "to push", "answer": "empujar", "sort": "verb"},
-{"question": "box", "answer": "caja", "sort": "noun"},
-{"question": "bottle", "answer": "botella", "sort": "noun"},
-{"question": "basket", "answer": "canasta", "sort": "noun"},
-{"question": "heavy", "answer": "pesado/a", "sort": "adjective"},
-{"question": "light (weight)", "answer": "ligero/a", "sort": "adjective"},
-{"question": "empty", "answer": "vacío/a", "sort": "adjective"},
-{"question": "Please open the door.", "answer": "Abre la puerta, por favor.", "sort": "phrase"},
-{"question": "Don't push.", "answer": "No empujes.", "sort": "phrase"},
-{"question": "to listen", "answer": "escuchar", "sort": "verb"},
-{"question": "to smell", "answer": "oler", "sort": "verb"},
-{"question": "to touch", "answer": "tocar", "sort": "verb"},
-{"question": "sound", "answer": "sonido", "sort": "noun"},
-{"question": "smell", "answer": "olor", "sort": "noun"},
-{"question": "sense", "answer": "sentido", "sort": "noun"},
-{"question": "loud", "answer": "alto/fuerte", "sort": "adjective"},
-{"question": "quiet", "answer": "silencioso/a", "sort": "adjective"},
-{"question": "soft", "answer": "suave", "sort": "adjective"},
-{"question": "Listen to me.", "answer": "Escúchame.", "sort": "phrase"},
-{"question": "It smells good.", "answer": "Huele bien.", "sort": "phrase"},
-{"question": "to cook", "answer": "cocinar", "sort": "verb"},
-{"question": "to fry", "answer": "freír", "sort": "verb"},
-{"question": "to bake", "answer": "hornear", "sort": "verb"},
-{"question": "bread", "answer": "pan", "sort": "noun"},
-{"question": "meat", "answer": "carne", "sort": "noun"},
-{"question": "vegetable", "answer": "verdura", "sort": "noun"},
-{"question": "raw", "answer": "crudo/a", "sort": "adjective"},
-{"question": "cooked", "answer": "cocido/a", "sort": "adjective"},
-{"question": "sweet", "answer": "dulce", "sort": "adjective"},
-{"question": "What's for dinner?", "answer": "¿Qué hay de cenar?", "sort": "phrase"},
-{"question": "I love to cook.", "answer": "Me encanta cocinar.", "sort": "phrase"},
-{"question": "to introduce oneself", "answer": "presentarse", "sort": "verb"},
-{"question": "to remember", "answer": "recordar", "sort": "verb"},
-{"question": "to complain", "answer": "quejarse", "sort": "verb"},
-{"question": "name", "answer": "nombre", "sort": "noun"},
-{"question": "problem", "answer": "problema", "sort": "noun"},
-{"question": "solution", "answer": "solución", "sort": "noun"},
-{"question": "ready", "answer": "listo/a", "sort": "adjective"},
-{"question": "busy", "answer": "ocupado/a", "sort": "adjective"},
-{"question": "available", "answer": "disponible", "sort": "adjective"},
-{"question": "What's the problem?", "answer": "¿Cuál es el problema?", "sort": "phrase"},
-{"question": "Don't worry.", "answer": "No te preocupes.", "sort": "phrase"},
-{"question": "to drive", "answer": "conducir", "sort": "verb"},
-{"question": "to wait", "answer": "esperar", "sort": "verb"},
-{"question": "to park", "answer": "aparcar", "sort": "verb"},
-{"question": "road", "answer": "carretera", "sort": "noun"},
-{"question": "traffic", "answer": "tráfico", "sort": "noun"},
-{"question": "license", "answer": "licencia", "sort": "noun"},
-{"question": "slow", "answer": "lento/a", "sort": "adjective"},
-{"question": "dangerous", "answer": "peligroso/a", "sort": "adjective"},
-{"question": "safe", "answer": "seguro/a", "sort": "adjective"},
-{"question": "Drive carefully.", "answer": "Conduce con cuidado.", "sort": "phrase"},
-{"question": "I'm late.", "answer": "Llego tarde.", "sort": "phrase"}
+    {
+        "question": "to be (essence/permanent)",
+        "answer": "ser",
+        "sort": "verb",
+        "sort2": "top 5"
+    },
+    {
+        "question": "to be (location/temporary)",
+        "answer": "estar",
+        "sort": "verb",
+        "sort2": "top 5"
+    },
+    {
+        "question": "to have",
+        "answer": "tener",
+        "sort": "verb",
+        "sort2": "top 5"
+    },
+    {
+        "question": "to do, to make",
+        "answer": "hacer",
+        "sort": "verb",
+        "sort2": "top 5"
+    },
+    {
+        "question": "to be able to, can",
+        "answer": "poder",
+        "sort": "verb",
+        "sort2": "top 5"
+    },
+    {
+        "question": "to say, to tell",
+        "answer": "decir",
+        "sort": "verb",
+        "sort2": "top 10"
+    },
+    {
+        "question": "to go",
+        "answer": "ir",
+        "sort": "verb",
+        "sort2": "top 10"
+    },
+    {
+        "question": "to see",
+        "answer": "ver",
+        "sort": "verb",
+        "sort2": "top 10"
+    },
+    {
+        "question": "to give",
+        "answer": "dar",
+        "sort": "verb",
+        "sort2": "top 10"
+    },
+    {
+        "question": "to know (facts/skills)",
+        "answer": "saber",
+        "sort": "verb",
+        "sort2": "top 10"
+    },
+    {
+        "question": "to want, to love",
+        "answer": "querer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to arrive",
+        "answer": "llegar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to pass, to happen",
+        "answer": "pasar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to take, to carry",
+        "answer": "llevar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to find",
+        "answer": "encontrar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to call, to name",
+        "answer": "llamar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to come",
+        "answer": "venir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to think",
+        "answer": "pensar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to take, to drink",
+        "answer": "tomar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to know (people/places)",
+        "answer": "conocer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to live",
+        "answer": "vivir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to feel",
+        "answer": "sentir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to try",
+        "answer": "tratar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to speak",
+        "answer": "hablar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to need",
+        "answer": "necesitar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to stay, to remain",
+        "answer": "quedar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to believe",
+        "answer": "creer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to turn, to return",
+        "answer": "volver",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to wait, to hope",
+        "answer": "esperar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to put, to place",
+        "answer": "poner",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to look for",
+        "answer": "buscar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to open",
+        "answer": "abrir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to serve",
+        "answer": "servir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to work",
+        "answer": "trabajar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to leave, to go out",
+        "answer": "salir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to listen",
+        "answer": "escuchar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to read",
+        "answer": "leer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to understand",
+        "answer": "entender",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to start, to begin",
+        "answer": "empezar / comenzar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to win, to earn",
+        "answer": "ganar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to lose, to miss",
+        "answer": "perder",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to learn",
+        "answer": "aprender",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to write",
+        "answer": "escribir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to run",
+        "answer": "correr",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to walk",
+        "answer": "caminar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to eat",
+        "answer": "comer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to accept",
+        "answer": "aceptar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to pay",
+        "answer": "pagar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to explain",
+        "answer": "explicar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to play (game/sport)",
+        "answer": "jugar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to ask (question)",
+        "answer": "preguntar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to ask for, to order",
+        "answer": "pedir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to help",
+        "answer": "ayudar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to close",
+        "answer": "cerrar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to follow",
+        "answer": "seguir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to raise, to lift",
+        "answer": "levantar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to watch, to look at",
+        "answer": "mirar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to feel bad, to regret",
+        "answer": "lamentar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to study",
+        "answer": "estudiar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to return, to give back",
+        "answer": "devolver",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to finish, to end",
+        "answer": "terminar / acabar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to happen, to occur",
+        "answer": "ocurrir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to move",
+        "answer": "mover",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to change",
+        "answer": "cambiar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to sell",
+        "answer": "vender",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to live (somewhere)",
+        "answer": "habitar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to close, to shut",
+        "answer": "encerrar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to believe, to trust",
+        "answer": "confiar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to mention",
+        "answer": "mencionar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to decide",
+        "answer": "decidir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to consider",
+        "answer": "considerar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to count, to tell",
+        "answer": "contar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to allow, to permit",
+        "answer": "permitir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to raise, to create",
+        "answer": "crear",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to introduce, to present",
+        "answer": "presentar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to fall",
+        "answer": "caer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to take out, to remove",
+        "answer": "sacar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to obtain, to get",
+        "answer": "obtener",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to establish",
+        "answer": "establecer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to die",
+        "answer": "morir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to include",
+        "answer": "incluir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to achieve, to reach",
+        "answer": "alcanzar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to offer",
+        "answer": "ofrecer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to use",
+        "answer": "usar / utilizar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to show, to point out",
+        "answer": "mostrar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to recognize",
+        "answer": "reconocer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to force, to oblige",
+        "answer": "obligar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to describe",
+        "answer": "describir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to avoid",
+        "answer": "evitar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to represent",
+        "answer": "representar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to sit (oneself)",
+        "answer": "sentarse",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to belong",
+        "answer": "pertenecer",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to direct, to lead",
+        "answer": "dirigir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to save",
+        "answer": "guardar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to buy",
+        "answer": "comprar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to receive",
+        "answer": "recibir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to remember",
+        "answer": "recordar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to begin",
+        "answer": "iniciar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to send",
+        "answer": "enviar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to maintain, to keep",
+        "answer": "mantener",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to imagine",
+        "answer": "imaginar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to discover",
+        "answer": "descubrir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to prepare",
+        "answer": "preparar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to forget",
+        "answer": "olvidar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to sleep",
+        "answer": "dormir",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "to wake up",
+        "answer": "despertar",
+        "sort": "verb",
+        "sort2": null
+    },
+    {
+        "question": "house",
+        "answer": "la casa",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "book",
+        "answer": "el libro",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "man",
+        "answer": "el hombre",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "woman",
+        "answer": "la mujer",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "day",
+        "answer": "el día",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "life",
+        "answer": "la vida",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "time",
+        "answer": "el tiempo",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "way, road",
+        "answer": "el camino",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "world",
+        "answer": "el mundo",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "hand",
+        "answer": "la mano",
+        "sort": "noun",
+        "sort2": "top 10"
+    },
+    {
+        "question": "place",
+        "answer": "el lugar",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "thing",
+        "answer": "la cosa",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "person",
+        "answer": "la persona",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "moment",
+        "answer": "el momento",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "year",
+        "answer": "el año",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "form, shape",
+        "answer": "la forma",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "hour",
+        "answer": "la hora",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "government",
+        "answer": "el gobierno",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "war",
+        "answer": "la guerra",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "mother",
+        "answer": "la madre",
+        "sort": "noun",
+        "sort2": "top 20"
+    },
+    {
+        "question": "problem",
+        "answer": "el problema",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "friend (male)",
+        "answer": "el amigo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "friend (female)",
+        "answer": "la amiga",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "state",
+        "answer": "el estado",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "father",
+        "answer": "el padre",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "history",
+        "answer": "la historia",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "group",
+        "answer": "el grupo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "system",
+        "answer": "el sistema",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "city",
+        "answer": "la ciudad",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "work, job",
+        "answer": "el trabajo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "company",
+        "answer": "la empresa",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "point",
+        "answer": "el punto",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "family",
+        "answer": "la familia",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "money",
+        "answer": "el dinero",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "case",
+        "answer": "el caso",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "night",
+        "answer": "la noche",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "country",
+        "answer": "el país",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "area",
+        "answer": "el área",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "head",
+        "answer": "la cabeza",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "name",
+        "answer": "el nombre",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "power",
+        "answer": "el poder",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "number",
+        "answer": "el número",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "water",
+        "answer": "el agua",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "side",
+        "answer": "el lado",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "end, purpose",
+        "answer": "el fin",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "example",
+        "answer": "el ejemplo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "child, son",
+        "answer": "el hijo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "child, daughter",
+        "answer": "la hija",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "fact",
+        "answer": "el hecho",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "street",
+        "answer": "la calle",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "doctor",
+        "answer": "el doctor",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "school",
+        "answer": "la escuela",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "party",
+        "answer": "la fiesta",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "car",
+        "answer": "el coche / el carro",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "table",
+        "answer": "la mesa",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "music",
+        "answer": "la música",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "idea",
+        "answer": "la idea",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "voice",
+        "answer": "la voz",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "service",
+        "answer": "el servicio",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "result",
+        "answer": "el resultado",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "reason",
+        "answer": "la razón",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "difference",
+        "answer": "la diferencia",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "president",
+        "answer": "el presidente",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "room",
+        "answer": "la sala / el cuarto",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "student",
+        "answer": "el/la estudiante",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "month",
+        "answer": "el mes",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "light",
+        "answer": "la luz",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "team",
+        "answer": "el equipo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "line",
+        "answer": "la línea",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "friendship",
+        "answer": "la amistad",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "law",
+        "answer": "la ley",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "program",
+        "answer": "el programa",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "price",
+        "answer": "el precio",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "type",
+        "answer": "el tipo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "level",
+        "answer": "el nivel",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "art",
+        "answer": "el arte",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "research",
+        "answer": "la investigación",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "sense",
+        "answer": "el sentido",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "effort",
+        "answer": "el esfuerzo",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "effect",
+        "answer": "el efecto",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "value",
+        "answer": "el valor",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "age",
+        "answer": "la edad",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "attention",
+        "answer": "la atención",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "freedom",
+        "answer": "la libertad",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "death",
+        "answer": "la muerte",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "community",
+        "answer": "la comunidad",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "situation",
+        "answer": "la situación",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "view, sight",
+        "answer": "la vista",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "health",
+        "answer": "la salud",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "memory",
+        "answer": "la memoria",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "truth",
+        "answer": "la verdad",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "education",
+        "answer": "la educación",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "color",
+        "answer": "el color",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "relationship",
+        "answer": "la relación",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "image",
+        "answer": "la imagen",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "feeling",
+        "answer": "el sentimiento",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "future",
+        "answer": "el futuro",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "question",
+        "answer": "la pregunta",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "answer",
+        "answer": "la respuesta",
+        "sort": "noun",
+        "sort2": null
+    },
+    {
+        "question": "good",
+        "answer": "bueno / a",
+        "sort": "adjective",
+        "sort2": "top 5"
+    },
+    {
+        "question": "bad",
+        "answer": "malo / a",
+        "sort": "adjective",
+        "sort2": "top 5"
+    },
+    {
+        "question": "big, large, great",
+        "answer": "grande",
+        "sort": "adjective",
+        "sort2": "top 5"
+    },
+    {
+        "question": "small, little",
+        "answer": "pequeño / a",
+        "sort": "adjective",
+        "sort2": "top 5"
+    },
+    {
+        "question": "new",
+        "answer": "nuevo / a",
+        "sort": "adjective",
+        "sort2": "top 10"
+    },
+    {
+        "question": "old",
+        "answer": "viejo / a",
+        "sort": "adjective",
+        "sort2": "top 10"
+    },
+    {
+        "question": "same, equal",
+        "answer": "mismo / a",
+        "sort": "adjective",
+        "sort2": "top 10"
+    },
+    {
+        "question": "other, another",
+        "answer": "otro / a",
+        "sort": "adjective",
+        "sort2": "top 10"
+    },
+    {
+        "question": "much, many",
+        "answer": "mucho / a",
+        "sort": "adjective",
+        "sort2": "top 10"
+    },
+    {
+        "question": "few, little",
+        "answer": "poco / a",
+        "sort": "adjective",
+        "sort2": "top 10"
+    },
+    {
+        "question": "important",
+        "answer": "importante",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "first",
+        "answer": "primer / o / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "last",
+        "answer": "último / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "high, tall",
+        "answer": "alto / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "low, short",
+        "answer": "bajo / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "true, real",
+        "answer": "verdadero / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "ready, smart",
+        "answer": "listo / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "difficult",
+        "answer": "difícil",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "easy",
+        "answer": "fácil",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "possible",
+        "answer": "posible",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "necessary",
+        "answer": "necesario / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "open",
+        "answer": "abierto / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "closed",
+        "answer": "cerrado / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "central",
+        "answer": "central",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "clear",
+        "answer": "claro / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "safe, sure",
+        "answer": "seguro / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "simple",
+        "answer": "simple",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "different",
+        "answer": "diferente",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "entire, whole",
+        "answer": "entero / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "free",
+        "answer": "libre",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "general",
+        "answer": "general",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "human",
+        "answer": "humano / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "just, fair",
+        "answer": "justo / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "long",
+        "answer": "largo / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "main",
+        "answer": "principal",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "national",
+        "answer": "nacional",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "natural",
+        "answer": "natural",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "perfect",
+        "answer": "perfecto / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "public",
+        "answer": "público / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "serious",
+        "answer": "serio / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "social",
+        "answer": "social",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "sudden",
+        "answer": "repentino / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "total",
+        "answer": "total",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "useful",
+        "answer": "útil",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "previous",
+        "answer": "anterior",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "clean",
+        "answer": "limpio / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "dirty",
+        "answer": "sucio / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "strong, hard",
+        "answer": "duro / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "weak, soft",
+        "answer": "suave",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "sweet",
+        "answer": "dulce",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "fast, quick",
+        "answer": "rápido / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "slow",
+        "answer": "lento / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "rich",
+        "answer": "rico / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "poor",
+        "answer": "pobre",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "beautiful, handsome",
+        "answer": "hermoso / a / bello / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "ugly",
+        "answer": "feo / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "happy",
+        "answer": "feliz / contento / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "sad",
+        "answer": "triste",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "cold",
+        "answer": "frío / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "hot, warm",
+        "answer": "caliente",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "young",
+        "answer": "joven",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "dark, obscure",
+        "answer": "oscuro / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "ready, prepared",
+        "answer": "dispuesto / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "empty",
+        "answer": "vacío / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "full",
+        "answer": "lleno / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "necessary",
+        "answer": "necesario / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "special",
+        "answer": "especial",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "local",
+        "answer": "local",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "military",
+        "answer": "militar",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "religious",
+        "answer": "religioso / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "technical",
+        "answer": "técnico / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "possible",
+        "answer": "posible",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "active",
+        "answer": "activo / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "capable",
+        "answer": "capaz",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "certain",
+        "answer": "cierto / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "commercial",
+        "answer": "comercial",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "common",
+        "answer": "común",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "economic",
+        "answer": "económico / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "final",
+        "answer": "final",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "formal",
+        "answer": "formal",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "global",
+        "answer": "global",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "initial",
+        "answer": "inicial",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "legal",
+        "answer": "legal",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "local",
+        "answer": "local",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "medical",
+        "answer": "médico / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "modern",
+        "answer": "moderno / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "nuclear",
+        "answer": "nuclear",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "official",
+        "answer": "oficial",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "political",
+        "answer": "político / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "positive",
+        "answer": "positivo / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "previous",
+        "answer": "anterior",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "private",
+        "answer": "privado / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "professional",
+        "answer": "profesional",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "responsible",
+        "answer": "responsable",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "scientific",
+        "answer": "científico / a",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "simple",
+        "answer": "simple",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "standard",
+        "answer": "estándar",
+        "sort": "adjective",
+        "sort2": null
+    },
+    {
+        "question": "Hello, how are you? (informal)",
+        "answer": "Hola, ¿cómo estás?",
+        "sort": "phrase",
+        "sort2": "greetings"
+    },
+    {
+        "question": "Hello, how are you? (formal)",
+        "answer": "Hola, ¿cómo está?",
+        "sort": "phrase",
+        "sort2": "greetings"
+    },
+    {
+        "question": "Good morning",
+        "answer": "Buenos días",
+        "sort": "phrase",
+        "sort2": "greetings"
+    },
+    {
+        "question": "Good afternoon/evening",
+        "answer": "Buenas tardes",
+        "sort": "phrase",
+        "sort2": "greetings"
+    },
+    {
+        "question": "Good night",
+        "answer": "Buenas noches",
+        "sort": "phrase",
+        "sort2": "greetings"
+    },
+    {
+        "question": "Please",
+        "answer": "Por favor",
+        "sort": "phrase",
+        "sort2": "politeness"
+    },
+    {
+        "question": "Thank you (very much)",
+        "answer": "Gracias (muchas gracias)",
+        "sort": "phrase",
+        "sort2": "politeness"
+    },
+    {
+        "question": "You're welcome",
+        "answer": "De nada",
+        "sort": "phrase",
+        "sort2": "politeness"
+    },
+    {
+        "question": "Excuse me / Pardon me",
+        "answer": "Con permiso / Perdón",
+        "sort": "phrase",
+        "sort2": "politeness"
+    },
+    {
+        "question": "I'm sorry",
+        "answer": "Lo siento",
+        "sort": "phrase",
+        "sort2": "politeness"
+    },
+    {
+        "question": "Yes",
+        "answer": "Sí",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "No",
+        "answer": "No",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "Maybe",
+        "answer": "Quizás / Tal vez",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "I understand",
+        "answer": "Entiendo",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "I don't understand",
+        "answer": "No entiendo",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "I don't know",
+        "answer": "No sé",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "Do you speak English?",
+        "answer": "¿Habla inglés?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can you help me?",
+        "answer": "¿Me puede ayudar?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How much is it?",
+        "answer": "¿Cuánto cuesta?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the bathroom?",
+        "answer": "¿Dónde está el baño?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is your name?",
+        "answer": "¿Cómo te llamas? (informal)",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "My name is...",
+        "answer": "Me llamo...",
+        "sort": "phrase",
+        "sort2": "introductions"
+    },
+    {
+        "question": "Nice to meet you",
+        "answer": "Mucho gusto",
+        "sort": "phrase",
+        "sort2": "introductions"
+    },
+    {
+        "question": "I am from...",
+        "answer": "Soy de...",
+        "sort": "phrase",
+        "sort2": "introductions"
+    },
+    {
+        "question": "Where are you from?",
+        "answer": "¿De dónde eres? (informal)",
+        "sort": "phrase",
+        "sort2": "introductions"
+    },
+    {
+        "question": "See you later",
+        "answer": "Hasta luego",
+        "sort": "phrase",
+        "sort2": "farewells"
+    },
+    {
+        "question": "See you tomorrow",
+        "answer": "Hasta mañana",
+        "sort": "phrase",
+        "sort2": "farewells"
+    },
+    {
+        "question": "Bye",
+        "answer": "Adiós / Chao",
+        "sort": "phrase",
+        "sort2": "farewells"
+    },
+    {
+        "question": "I need help",
+        "answer": "Necesito ayuda",
+        "sort": "phrase",
+        "sort2": "needs"
+    },
+    {
+        "question": "I want...",
+        "answer": "Yo quiero...",
+        "sort": "phrase",
+        "sort2": "needs"
+    },
+    {
+        "question": "I would like...",
+        "answer": "Me gustaría...",
+        "sort": "phrase",
+        "sort2": "needs"
+    },
+    {
+        "question": "What is this?",
+        "answer": "¿Qué es esto?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is...?",
+        "answer": "¿Dónde está...?",
+        "sort": "phrase",
+        "sort2": "location"
+    },
+    {
+        "question": "Turn right",
+        "answer": "Gira a la derecha",
+        "sort": "phrase",
+        "sort2": "directions"
+    },
+    {
+        "question": "Turn left",
+        "answer": "Gira a la izquierda",
+        "sort": "phrase",
+        "sort2": "directions"
+    },
+    {
+        "question": "Straight ahead",
+        "answer": "Todo recto / Derecho",
+        "sort": "phrase",
+        "sort2": "directions"
+    },
+    {
+        "question": "I am hungry",
+        "answer": "Tengo hambre",
+        "sort": "phrase",
+        "sort2": "feelings"
+    },
+    {
+        "question": "I am thirsty",
+        "answer": "Tengo sed",
+        "sort": "phrase",
+        "sort2": "feelings"
+    },
+    {
+        "question": "I am tired",
+        "answer": "Estoy cansado / a",
+        "sort": "phrase",
+        "sort2": "feelings"
+    },
+    {
+        "question": "It's fine / Okay",
+        "answer": "Está bien",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "That's enough",
+        "answer": "Es suficiente",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "Hurry up!",
+        "answer": "¡Date prisa!",
+        "sort": "phrase",
+        "sort2": "commands"
+    },
+    {
+        "question": "Wait a moment",
+        "answer": "Espera un momento",
+        "sort": "phrase",
+        "sort2": "commands"
+    },
+    {
+        "question": "Come here",
+        "answer": "Ven aquí",
+        "sort": "phrase",
+        "sort2": "commands"
+    },
+    {
+        "question": "It is cold",
+        "answer": "Hace frío",
+        "sort": "phrase",
+        "sort2": "weather"
+    },
+    {
+        "question": "It is hot",
+        "answer": "Hace calor",
+        "sort": "phrase",
+        "sort2": "weather"
+    },
+    {
+        "question": "What time is it?",
+        "answer": "¿Qué hora es?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How old are you?",
+        "answer": "¿Cuántos años tienes?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "I have [...] years (I am [...] years old)",
+        "answer": "Tengo [...] años",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "Do you have...?",
+        "answer": "¿Tiene usted...?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What are you doing?",
+        "answer": "¿Qué haces?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "I am looking for...",
+        "answer": "Estoy buscando...",
+        "sort": "phrase",
+        "sort2": "needs"
+    },
+    {
+        "question": "A table for two",
+        "answer": "Una mesa para dos",
+        "sort": "phrase",
+        "sort2": "restaurant"
+    },
+    {
+        "question": "The bill, please",
+        "answer": "La cuenta, por favor",
+        "sort": "phrase",
+        "sort2": "restaurant"
+    },
+    {
+        "question": "It is delicious",
+        "answer": "Está delicioso",
+        "sort": "phrase",
+        "sort2": "restaurant"
+    },
+    {
+        "question": "I am paying",
+        "answer": "Yo pago",
+        "sort": "phrase",
+        "sort2": "money"
+    },
+    {
+        "question": "What is the price?",
+        "answer": "¿Cuál es el precio?",
+        "sort": "phrase",
+        "sort2": "money"
+    },
+    {
+        "question": "I like it",
+        "answer": "Me gusta",
+        "sort": "phrase",
+        "sort2": "likes"
+    },
+    {
+        "question": "I don't like it",
+        "answer": "No me gusta",
+        "sort": "phrase",
+        "sort2": "likes"
+    },
+    {
+        "question": "It is great / awesome",
+        "answer": "¡Es genial!",
+        "sort": "phrase",
+        "sort2": "admiration"
+    },
+    {
+        "question": "Be careful",
+        "answer": "Ten cuidado",
+        "sort": "phrase",
+        "sort2": "warnings"
+    },
+    {
+        "question": "Help!",
+        "answer": "¡Auxilio! / ¡Socorro!",
+        "sort": "phrase",
+        "sort2": "emergency"
+    },
+    {
+        "question": "I am lost",
+        "answer": "Estoy perdido / a",
+        "sort": "phrase",
+        "sort2": "emergency"
+    },
+    {
+        "question": "Call the police",
+        "answer": "Llama a la policía",
+        "sort": "phrase",
+        "sort2": "emergency"
+    },
+    {
+        "question": "Call a doctor",
+        "answer": "Llama a un doctor",
+        "sort": "phrase",
+        "sort2": "emergency"
+    },
+    {
+        "question": "I am sick",
+        "answer": "Estoy enfermo / a",
+        "sort": "phrase",
+        "sort2": "feelings"
+    },
+    {
+        "question": "What's wrong?",
+        "answer": "¿Qué pasa?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Nothing",
+        "answer": "Nada",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "Everything",
+        "answer": "Todo",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "How do you say...?",
+        "answer": "¿Cómo se dice...?",
+        "sort": "phrase",
+        "sort2": "language"
+    },
+    {
+        "question": "Can you repeat?",
+        "answer": "¿Puede repetir?",
+        "sort": "phrase",
+        "sort2": "language"
+    },
+    {
+        "question": "Speak slowly",
+        "answer": "Hable despacio",
+        "sort": "phrase",
+        "sort2": "language"
+    },
+    {
+        "question": "I need a ticket",
+        "answer": "Necesito un billete",
+        "sort": "phrase",
+        "sort2": "needs"
+    },
+    {
+        "question": "Go straight until...",
+        "answer": "Siga recto hasta...",
+        "sort": "phrase",
+        "sort2": "directions"
+    },
+    {
+        "question": "I have a reservation",
+        "answer": "Tengo una reserva",
+        "sort": "phrase",
+        "sort2": "travel"
+    },
+    {
+        "question": "Where are you going?",
+        "answer": "¿Adónde vas? (informal)",
+        "sort": "phrase",
+        "sort2": "travel"
+    },
+    {
+        "question": "Here / There",
+        "answer": "Aquí / Allí",
+        "sort": "phrase",
+        "sort2": "location"
+    },
+    {
+        "question": "With / Without",
+        "answer": "Con / Sin",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "More / Less",
+        "answer": "Más / Menos",
+        "sort": "phrase",
+        "sort2": "basics"
+    },
+    {
+        "question": "Very much / A lot",
+        "answer": "Muchísimo",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "Wait for me",
+        "answer": "Espérame",
+        "sort": "phrase",
+        "sort2": "commands"
+    },
+    {
+        "question": "Come with me",
+        "answer": "Ven conmigo",
+        "sort": "phrase",
+        "sort2": "commands"
+    },
+    {
+        "question": "What a shame!",
+        "answer": "¡Qué pena!",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "It is true",
+        "answer": "Es verdad",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "I agree",
+        "answer": "Estoy de acuerdo",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "I don't agree",
+        "answer": "No estoy de acuerdo",
+        "sort": "phrase",
+        "sort2": "expressions"
+    },
+    {
+        "question": "Let's go!",
+        "answer": "¡Vámonos!",
+        "sort": "phrase",
+        "sort2": "commands"
+    },
+    {
+        "question": "How fantastic!",
+        "answer": "¡Qué fantástico!",
+        "sort": "phrase",
+        "sort2": "admiration"
+    },
+    {
+        "question": "I have to go",
+        "answer": "Tengo que irme",
+        "sort": "phrase",
+        "sort2": "farewells"
+    },
+    {
+        "question": "Take care (informal)",
+        "answer": "Cuídate",
+        "sort": "phrase",
+        "sort2": "farewells"
+    },
+    {
+        "question": "I'm having fun",
+        "answer": "Me estoy divirtiendo",
+        "sort": "phrase",
+        "sort2": "feelings"
+    },
+    {
+        "question": "I'm bored",
+        "answer": "Estoy aburrido / a",
+        "sort": "phrase",
+        "sort2": "feelings"
+    },
+    {
+        "question": "It's cold outside",
+        "answer": "Hace frío afuera",
+        "sort": "phrase",
+        "sort2": "weather"
+    },
+    {
+        "question": "It's sunny",
+        "answer": "Hace sol",
+        "sort": "phrase",
+        "sort2": "weather"
+    },
+    {
+        "question": "Can I have...?",
+        "answer": "¿Puedo tener...?",
+        "sort": "phrase",
+        "sort2": "requests"
+    },
+    {
+        "question": "I am looking for the hotel",
+        "answer": "Busco el hotel",
+        "sort": "phrase",
+        "sort2": "travel"
+    },
+    {
+        "question": "One moment, please",
+        "answer": "Un momento, por favor",
+        "sort": "phrase",
+        "sort2": "politeness"
+    },
+    {
+        "question": "Where are you going?",
+        "answer": "¿A dónde va? (formal)",
+        "sort": "phrase",
+        "sort2": "travel"
+    }
 ]
