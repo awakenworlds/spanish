@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Spanish Flashcards</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCS6JZ01LT"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NCS6JZ01LT');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Vocab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/x-icon" href="images/favicon.ico">
 </head>
 <body>
-  <div class="card-container">
-    <h1>Spanish Flashcards</h1>
-    <div id="card">
-      <div id="question"></div>
-      <div id="answer" class="hidden"></div>
-      <div id="feedback" class="feedback"></div>
+    
+    <div class="quiz-container">
+        
+        <div class="header-nav-container">
+            <input type="text" id="search-input" placeholder="Search here..." autocomplete="off">
+            
+            <select id="filter-dropdown">
+                <option value="all">All</option>
+            </select>
+            
+            <button id="english-mode-btn">Es</button> 
+        </div>
+        
+        <div id="search-results-container" class="search-results-container hidden">
+            <ul id="search-results-list"></ul>
+            <div class="back-to-quiz-btn-container">
+                <button id="back-to-quiz-btn" class="submit-button">Back to Quiz</button>
+            </div>
+        </div>
+
+        <div id="quiz-content">
+            <div class="card">
+                
+                <div id="question"></div>
+                <div id="answer" class="hidden"></div>
+                <div id="feedback" class="hidden"></div>
+            </div>
+
+            <div class="input-action-row" id="spanish-action-row"> 
+                <input type="text" id="spanish-answer-input" placeholder="Spanish Answer" autocomplete="off">
+                <div class="button-group">
+                    <button id="submit-spanish-btn" class="submit-button">Submit</button>
+                    <button id="show-spanish-answer-btn" class="submit-button reveal">Reveal</button>
+                </div>
+            </div>
+
+            <div class="multiple-choice-container hidden" id="multiple-choice-container"></div>
+            <div class="multiple-choice-container hidden mc-style-2" id="secondary-mc-container"></div>
+            
+            <div class="bottom-nav-container">
+                <button id="prev-card-btn" class="nav-button bottom-nav-button">Previous</button>
+                <button id="next-card-btn" class="nav-button bottom-nav-button">Next</button>
+            </div>
+            
+            <div class="bottom-info-container"> 
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox" id="multiple-choice-toggle" checked>
+                        Mult. Choice
+                    </label>
+                    <label>
+                        <input type="checkbox" id="random-toggle" checked>
+                        Random
+                    </label>
+                    <label>
+                        <input type="checkbox" id="category-limited-toggle" checked>
+                        Limit Sort
+                    </label>
+
+                </div>
+            </div>
+
+            <div class="tracker-container">
+            </div>
+        </div>
     </div>
 
-    <div class="controls">
-      <div class="input-group">
-        <input type="text" id="spanish-answer-input" placeholder="Your Answer" autocomplete="off">
-        <button id="submit-btn">Submit</button>
-      </div>
+    <script src="script.js"></script>
+    <div class="about-section">
+    <button id="about-toggle" class="about-toggle">More ▼</button>
+    <div id="about-content" class="about-content hidden">
+        © 2025 Peter Jones Faucher. All rights reserved.
+        This website shall solely be used for educational purposes.
     </div>
-
-    <div class="action-buttons">
-      <button id="prev-card-btn">Previous</button>
-      <button id="show-answer-btn">Show Answer</button>
-      <button id="reset-btn" class="reset-button">Reset Card</button>
-      <button id="next-card-btn">Next</button>
-      <button id="switch-language-btn">Switch Language</button>
-    </div>
-
-    <div class="category-select-container">
-      <label for="category-select">Choose a category:</label>
-      <select id="category-select" class="category-select">
-        <option value="all">All</option>
-        <option value="verb">Verbs</option>
-        <option value="noun">Nouns</option>
-        <option value="adjective">Adjectives</option>
-        <option value="phrase">Common Phrases</option>
-      </select>
-    </div>
-  </div>
-  <script src="script.js"></script>
+</div>
 </body>
 </html>
