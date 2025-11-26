@@ -2087,7 +2087,7 @@
         "sort": "phrase",
         "sort2": "weather"
     },
-    {
+   {
         "question": "What time is it?",
         "answer": "¿Qué hora es?",
         "sort": "phrase",
@@ -2096,6 +2096,594 @@
     {
         "question": "How old are you?",
         "answer": "¿Cuántos años tienes?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the bathroom?",
+        "answer": "¿Dónde está el baño?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How much does this cost?",
+        "answer": "¿Cuánto cuesta esto?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can you help me?",
+        "answer": "¿Me puedes ayudar?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you speak English?",
+        "answer": "¿Hablas inglés?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is your name?",
+        "answer": "¿Cómo te llamas?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How are you?",
+        "answer": "¿Cómo estás?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where are you from?",
+        "answer": "¿De dónde eres?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is this?",
+        "answer": "¿Qué es esto?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the nearest bank?",
+        "answer": "¿Dónde está el banco más cercano?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you have Wi-Fi?",
+        "answer": "¿Tienes Wi-Fi?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What would you like?",
+        "answer": "¿Qué te gustaría?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can I have the bill?",
+        "answer": "¿Me trae la cuenta, por favor?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How do I get there?",
+        "answer": "¿Cómo llego allí?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is the password?",
+        "answer": "¿Cuál es la contraseña?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is there a train station nearby?",
+        "answer": "¿Hay una estación de tren cerca?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What are you doing?",
+        "answer": "¿Qué estás haciendo?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "When does it open?",
+        "answer": "¿Cuándo abre?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Why?",
+        "answer": "¿Por qué?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the exit?",
+        "answer": "¿Dónde está la salida?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the entrance?",
+        "answer": "¿Dónde está la entrada?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you have a table for two?",
+        "answer": "¿Tiene una mesa para dos?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What kind of food is it?",
+        "answer": "¿Qué tipo de comida es?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is it spicy?",
+        "answer": "¿Es picante?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where can I find a taxi?",
+        "answer": "¿Dónde puedo encontrar un taxi?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How far is the hotel?",
+        "answer": "¿A qué distancia está el hotel?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is this the way to the museum?",
+        "answer": "¿Es este el camino al museo?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "When is the next bus?",
+        "answer": "¿Cuándo es el próximo autobús?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How long will it take?",
+        "answer": "¿Cuánto tiempo tomará?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can I pay by card?",
+        "answer": "¿Puedo pagar con tarjeta?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can I try this on?",
+        "answer": "¿Me puedo probar esto?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What size is this?",
+        "answer": "¿Qué talla es esto?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you have this in blue?",
+        "answer": "¿Tienes esto en azul?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is there a discount?",
+        "answer": "¿Hay un descuento?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What's wrong?",
+        "answer": "¿Qué pasa?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Are you feeling okay?",
+        "answer": "¿Te sientes bien?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What happened?",
+        "answer": "¿Qué pasó?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can you repeat that?",
+        "answer": "¿Puedes repetir eso?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What does this mean?",
+        "answer": "¿Qué significa esto?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the doctor/hospital?",
+        "answer": "¿Dónde está el médico/hospital?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What are you looking for?",
+        "answer": "¿Qué estás buscando?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Are you busy?",
+        "answer": "¿Estás ocupado(a)?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What time does it close?",
+        "answer": "¿A qué hora cierra?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is your phone number?",
+        "answer": "¿Cuál es tu número de teléfono?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How was your day?",
+        "answer": "¿Cómo estuvo tu día?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you want to go out tonight?",
+        "answer": "¿Quieres salir esta noche?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What are your plans?",
+        "answer": "¿Cuáles son tus planes?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Have you eaten yet?",
+        "answer": "¿Ya comiste?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Would you like something to drink?",
+        "answer": "¿Quieres algo de beber?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you have children?",
+        "answer": "¿Tienes hijos?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Are you married?",
+        "answer": "¿Estás casado(a)?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you work here?",
+        "answer": "¿Trabajas aquí?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What do you recommend?",
+        "answer": "¿Qué me recomiendas?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can I take a picture?",
+        "answer": "¿Puedo tomar una foto?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is the weather like?",
+        "answer": "¿Qué tiempo hace?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is it cold?",
+        "answer": "¿Hace frío?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is it hot?",
+        "answer": "¿Hace calor?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is it raining?",
+        "answer": "¿Está lloviendo?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What did you say?",
+        "answer": "¿Qué dijiste?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where do you live?",
+        "answer": "¿Dónde vives?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Have you been here before?",
+        "answer": "¿Has estado aquí antes?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is it far from here?",
+        "answer": "¿Está lejos de aquí?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can I change my order?",
+        "answer": "¿Puedo cambiar mi pedido?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How can I help you?",
+        "answer": "¿En qué te puedo ayudar?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What time is checkout?",
+        "answer": "¿A qué hora es la salida (del hotel)?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you have a reservation?",
+        "answer": "¿Tiene una reserva?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can I leave my bags here?",
+        "answer": "¿Puedo dejar mis maletas aquí?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is breakfast included?",
+        "answer": "¿Está el desayuno incluido?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can you show me on the map?",
+        "answer": "¿Me lo puedes enseñar en el mapa?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where can I buy tickets?",
+        "answer": "¿Dónde puedo comprar boletos/entradas?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is smoking allowed here?",
+        "answer": "¿Se permite fumar aquí?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you accept dollars/euros?",
+        "answer": "¿Aceptan dólares/euros?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is there a pharmacy nearby?",
+        "answer": "¿Hay una farmacia cerca?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Which one is better?",
+        "answer": "¿Cuál es mejor?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "When did you arrive?",
+        "answer": "¿Cuándo llegaste?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How long are you staying?",
+        "answer": "¿Cuánto tiempo te quedas?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is the purpose of your visit?",
+        "answer": "¿Cuál es el propósito de tu visita?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you understand?",
+        "answer": "¿Entiendes?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is everything okay?",
+        "answer": "¿Todo está bien?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Can you speak slower?",
+        "answer": "¿Puedes hablar más despacio?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the post office?",
+        "answer": "¿Dónde está la oficina de correos?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How do you spell that?",
+        "answer": "¿Cómo se deletrea eso?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What are your hobbies?",
+        "answer": "¿Cuáles son tus pasatiempos?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What movie should we watch?",
+        "answer": "¿Qué película deberíamos ver?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Are you ready?",
+        "answer": "¿Estás listo(a)?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Why are you laughing?",
+        "answer": "¿Por qué te ríes?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where are we going?",
+        "answer": "¿A dónde vamos?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is your favorite color?",
+        "answer": "¿Cuál es tu color favorito?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you like music?",
+        "answer": "¿Te gusta la música?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is this seat taken?",
+        "answer": "¿Está ocupado este asiento?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What is the total?",
+        "answer": "¿Cuál es el total?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "How much money do you need?",
+        "answer": "¿Cuánto dinero necesitas?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Have you seen my keys?",
+        "answer": "¿Has visto mis llaves?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Do you know him/her?",
+        "answer": "¿Lo/La conoces?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Should we wait?",
+        "answer": "¿Deberíamos esperar?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Where is the ticket office?",
+        "answer": "¿Dónde está la taquilla?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "Is there an ATM nearby?",
+        "answer": "¿Hay un cajero automático cerca?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What time do you leave?",
+        "answer": "¿A qué hora te vas?",
+        "sort": "phrase",
+        "sort2": "questions"
+    },
+    {
+        "question": "What are you thinking about?",
+        "answer": "¿En qué estás pensando?",
         "sort": "phrase",
         "sort2": "questions"
     },
